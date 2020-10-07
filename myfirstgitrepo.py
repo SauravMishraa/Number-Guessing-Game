@@ -1,3 +1,4 @@
+#this is a number guessing game with python while loop and random.randint()
 import random
 
 w_n = random.randint(1,60)
