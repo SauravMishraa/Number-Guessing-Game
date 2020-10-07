@@ -1,6 +1,6 @@
 import random
 
-w_n = random.randint(1,100)
+w_n = random.randint(1,60)
 game_over = True
 guess=1
 usr = int(input('user input : '))
