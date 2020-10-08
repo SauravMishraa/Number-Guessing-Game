@@ -5,16 +5,14 @@ import random
 w_n = random.randint(1,60)
 game_over = True
 guess=1
-usr = int(input('user input : '))
 while game_over:
+  usr = int(input('user input : '))
   if usr == w_n :
-    print(f'You Won in {guess} time')
+    print(f'You Won in {guess}th time')
     game_over = False
   else:
     if usr < w_n:
       print('Too Low')
-      usr = int(input('user input : '))
-    if usr > w_n:
+    elif usr > w_n:
       print('Too High')
-      usr = int(input('user input : '))
     guess += 1
